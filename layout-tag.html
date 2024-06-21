@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用tag排版</title>
+    <style>
+        body,
+        h1 {
+            margin: 0px;
+        }
+
+        #weapper {
+            width: 80%;
+            background-color: lightblue;
+            margin: 0px auto;
+        }
+
+        header {
+            height: 300px;
+            background-color: lightcoral;
+        }
+
+        nav {
+            height: 100px;
+            background-color: lightcyan;
+        }
+
+        aside {
+            height: 600px;
+            width: 20%;
+            background-color: lightgoldenrodyellow;
+            float: left;
+        }
+
+        section {
+            height: 600px;
+            width: 80%;
+            background-color: lightgray;
+            float: right;
+
+        }
+
+        #section1 {
+            background-color: lightsalmon;
+            margin: 1%;
+            height: 260px;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+
+        #section2 {
+            background-color: lightseagreen;
+            margin: 1%;
+            height: 260px;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+
+        footer {
+            height: 100px;
+            background-color: lightgreen;
+            clear: both;
+        }
+        .link {
+            text-align: right;
+            float: right;
+        }
+        .menu{
+            list-style-type: none;
+        }
+        .menu-item a{
+            text-decoration: none;
+            display: inline-block;
+            width: 200px;
+            line-height: 100px;
+            text-align: center;
+            color: rgb(7, 0, 0);
+        }
+        .menu-item{
+            display: inline-block;
+            width: 200px;
+            line-height: 100px;
+            text-align: center;
+            
+        }
+        .menu-item a:hover{
+            color: red;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="link">
+        <h1>
+            <ul class="menu">
+                <li class="menu-item"><a href="index.html">首頁</a></li>
+                <li class="menu-item"><a href="個人履歷.html">個人履歷</a></li>
+                <li class="menu-item"><a href="作品集.html">作品集</a></li>
+                <li class="menu-item"><a href="未來展望.html">未來展望</a></li>
+                <li class="menu-item"><a href="結尾.html">結尾</a></li>
+            </ul>
+        </h1>
+
+    </div>
+
+    <div id="wrapper">
+        <header>
+            <h1>header</h1>
+        </header>
+        <nav>
+            <h1>nav</h1>
+        </nav>
+        <main>
+            <aside>
+                <h1>aside</h1>
+            </aside>
+            <section>
+                <div id="section1">
+                    <h1>section1</h1>
+                </div>
+                <div id="section2">
+                    <h1>section2</h1>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h1>footer</h1>
+        </footer>
+    </div>
+
+</body>
+
+</html>

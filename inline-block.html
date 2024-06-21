@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><inline-block></title>
+    <style>
+        body,ul {
+            margin: 0px;
+        }
+
+        header {
+            height: 200px;
+            background-color: rgb(3, 48, 88);
+        }
+
+        nav {
+            height: 100px;
+            background-color: rgb(241, 237, 13);
+        }
+
+        main {
+            min-height: 1000px;
+            background-color: aqua;
+        }
+
+        aside {
+            width: 20%;
+            background-color: aquamarine;
+            min-height: 1000px;
+            float: left;
+        }
+
+        section {
+            width: 80%;
+            background-color: rgb(4, 228, 53);
+            min-height: 1000px;
+            float: left;
+        }
+
+        footer {
+            height: 100px;
+            background-color: blueviolet;
+        }
+        .menu{
+            list-style-type: none;
+        }
+        .menu-item a{
+            text-decoration: none;
+            display: inline-block;
+            width: 100px;
+            line-height: 100px;
+            text-align: center;
+            
+        }
+        .menu-item{
+            display: inline-block;
+            width: 100px;
+            line-height: 100px;
+            text-align: center;
+            
+        }
+        .menu-item a:hover{
+            color: red;
+        }
+        .link {
+            text-align: right;
+            float: right;
+        }
+        .me{
+            list-style-type: none;
+        }
+        .me-item a{
+            text-decoration: none;
+            display: inline-block;
+            width: 200px;
+            line-height: 100px;
+            text-align: center;
+            color: rgb(7, 0, 0);
+        }
+        .me-item{
+            display: inline-block;
+            width: 200px;
+            line-height: 100px;
+            text-align: center;
+            
+        }
+        .me-item a:hover{
+            color: red;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="link">
+            <h1>
+                <ul class="me">
+                    <li class="me-item"><a href="index.html">首頁</a></li>
+                    <li class="me-item"><a href="個人履歷.html">個人履歷</a></li>
+                    <li class="me-item"><a href="作品集.html">作品集</a></li>
+                    <li class="me-item"><a href="未來展望.html">未來展望</a></li>
+                    <li class="me-item"><a href="結尾.html">結尾</a></li>
+                </ul>
+            </h1>
+    
+        </div>
+    
+    </header>
+    <nav>
+        <ul class="menu">
+            <li class="menu-item"><a href="#">超連結1</a></li>
+            <li class="menu-item"><a href="#">超連結2</a></li>
+            <li class="menu-item"><a href="#">超連結3</a></li>
+            <li class="menu-item"><a href="#">超連結4</a></li>
+            <li class="menu-item"><a href="#">超連結5</a></li>
+        </ul>
+    </nav>
+    <main>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
